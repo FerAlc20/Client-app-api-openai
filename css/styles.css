@@ -1,0 +1,104 @@
+/* Fuentes personalizadas */
+body {
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Fondo con partículas */
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    z-index: -1;
+}
+
+/* Colores personalizados */
+.text-vino {
+    color: #4a0d33 !important;
+}
+
+.bg-vino {
+    background-color: #4a0d33 !important;
+}
+
+.btn-vino {
+    background-color: #4a0d33 !important;
+    border-color: #4a0d33 !important;
+    color: white !important;
+    transition: background-color 0.3s, transform 0.3s;
+    padding: 10px 25px;
+    font-size: 1.1rem;
+    border-radius: 25px;
+}
+
+.btn-vino:hover {
+    background-color: #33001a !important;
+    transform: translateY(-2px);
+}
+
+/* Tarjeta principal */
+.card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 1.5rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+    max-width: 500px;
+    width: 100%;
+    backdrop-filter: blur(5px);
+}
+
+.card:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+/* Icono de micrófono animado */
+.microphone-icon {
+    width: 80px; /* Ajusta el tamaño del contenedor */
+    height: 80px; /* Ajusta el tamaño del contenedor */
+    margin: 0 auto; /* Centra el ícono horizontalmente */
+    animation: float 3s infinite ease-in-out; /* Animación de flotación */
+}
+
+.microphone-image {
+    width: 100%; /* Asegura que la imagen ocupe todo el espacio del contenedor */
+    height: 100%; /* Asegura que la imagen ocupe todo el espacio del contenedor */
+    object-fit: contain; /* Asegura que la imagen se ajuste correctamente */
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Espaciado y márgenes */
+header {
+    margin-bottom: 3rem;
+}
+
+footer {
+    margin-top: 3rem;
+}
+
+/* Efecto de hover en el botón */
+.btn-vino:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

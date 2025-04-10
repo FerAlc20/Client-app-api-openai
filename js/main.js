@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             // Envía el mensaje a la API de OpenAI
             try {
-                const response = await fetch('http://localhost/api-gpt-php/endpoints/chat.php', { // Ruta absoluta corregida
+                const response = await fetch('http://18.204.55.204/api-gpt-php/endpoints/chat.php', { // Ruta absoluta corregida
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
